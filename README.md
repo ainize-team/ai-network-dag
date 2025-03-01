@@ -27,19 +27,18 @@ Before you begin, ensure you have the following installed on your machine:
    To start the server, use the following command:
 
    ```bash
-   node ai-network-dag.js --address <your-server-address> --sse_address <your-sse-address> --peers <comma-separated-peer-addresses>
+   node ai-network-dag.js --address <your-server-address> --peers <comma-separated-peer-addresses>
    ```
 
    Example:
 
    ```bash
-   node ai-network-dag.js --address localhost:50051 --sse_address localhost:3000 --peers localhost:50052
+   node ai-network-dag.js --address localhost:50051 --peers localhost:50052
    ```
 
 ### Command-Line Options
 
 - `--address` (`-a`): Server address for internal binding. Default: `localhost:50051`
-- `--sse_address` (`-s`): SSE Server address. Default: `localhost:3000`
 - `--peers` (`-p`): Comma-separated peer addresses. Default: `localhost:50052`
 
 ### Directory for Storing Data
@@ -51,7 +50,7 @@ The server will store data in a directory named `storage-<address>`. Ensure the 
 1. **Start the server**
 
    ```bash
-   node ai-network-dag.js --address localhost:50051 --sse_address localhost:3000 --peers localhost:50052
+   node ai-network-dag.js --address localhost:50051 --peers localhost:50052
    ```
 
 2. **Interact with the gRPC Server**
@@ -63,7 +62,7 @@ The server will store data in a directory named `storage-<address>`. Ensure the 
 - **add**: Adds content to the Merkle DAG.
 - **get**: Retrieves content from the Merkle DAG by CID.
 - **publish**: Publishes a message to a topic.
-- **subscribe**: Subscribes to a topic and returns an SSE URL for the client to listen to.
+- **subscribe**: Subscribes to a topic.
 
 ### Example gRPC Client
 
@@ -103,9 +102,3 @@ client.get({ cid: 'your-cid-here' }, (err, response) => {
   }
 });
 ```
-
-### Additional Notes
-
-- Ensure SSE server is running if using SSE for subscriptions and publications.
-
-By following the steps above, you should be able to run the AI Network Merkle DAG Service locally and interact with it using gRPC clients.
