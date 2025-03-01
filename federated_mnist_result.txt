@@ -1,0 +1,62 @@
+Loss: 0.7278301634211489
+Accuracy: 93.15%
+Publish response: True
+Loss: 0.8126403847114837
+Accuracy: 92.75%
+Publish response: True
+Loss: 0.7562445602280662
+Accuracy: 92.61%
+Publish response: True
+Loss: 0.7858308636920249
+Accuracy: 92.00%
+Publish response: True
+Loss: 2.3032823734954477
+Accuracy: 9.69%
+Epoch 1 Average Accuracy: 92.63%
+Loss: 0.5479175622792954
+Accuracy: 94.03%
+Publish response: True
+Loss: 0.5306802941486239
+Accuracy: 94.53%
+Publish response: True
+Loss: 0.5159780448897088
+Accuracy: 94.24%
+Publish response: True
+Loss: 0.5868865573739118
+Accuracy: 92.90%
+Publish response: True
+Loss: 2.3027291043735008
+Accuracy: 11.35%
+Epoch 2 Average Accuracy: 93.93%
+Loss: 0.4012438232435825
+Accuracy: 94.27%
+Publish response: True
+Loss: 0.34544074967345023
+Accuracy: 94.98%
+Publish response: True
+Loss: 0.3655272526864676
+Accuracy: 95.32%
+Publish response: True
+Loss: 0.38699115355043334
+Accuracy: 94.30%
+Publish response: True
+Loss: 2.3027257095776132
+Accuracy: 9.53%
+Epoch 3 Average Accuracy: 94.72%
+Loss: 0.2930385561739194
+Accuracy: 94.96%
+Publish response: True
+Loss: 0.24444207980079538
+Accuracy: 95.77%
+Publish response: True
+Loss: 0.2659561024691434
+Accuracy: 95.54%
+Publish response: True
+Loss: 0.28129239096999803
+Accuracy: 95.59%
+Publish response: True
+Loss: 2.3027430734654732
+Accuracy: 11.35%
+Epoch 4 Average Accuracy: 95.47%
+Blockchain overhaed:1.31%
+
