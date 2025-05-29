@@ -15,6 +15,7 @@ This document outlines the steps to publish the AINetwork DAG Client to npm.
    ├── ai_network_dag.proto
    ├── client/
    │   ├── ai_network_dag_client.js
+   │   ├── ai_network_dag_client.d.js
    │   ├── index.js
    │   ├── package.json
    │   └── README.md

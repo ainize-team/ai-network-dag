@@ -33,5 +33,5 @@ function runInstruction(instruction) {
   }
 }
 
-const instruction = JSON.stringify({ command: "train", container_id: "mnist-train", worker_pk: "pksample", data: "cf6a6e9921cd35b4ee39e74df3fedaaa40fab250029b1e1092da70e1c38b57e8" });
+const instruction = JSON.stringify({ command: "train", container_id: "mnist-train", container_args: { worker_pk: "pksample", data: "cf6a6e9921cd35b4ee39e74df3fedaaa40fab250029b1e1092da70e1c38b57e8" }});
 runInstruction(instruction);
