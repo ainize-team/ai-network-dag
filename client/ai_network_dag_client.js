@@ -192,3 +192,4 @@ class AINetworkDAGClient extends EventEmitter {
 }
 
 module.exports = AINetworkDAGClient;
+module.exports.default = AINetworkDAGClient; // ESM/TS 호환 export 추가

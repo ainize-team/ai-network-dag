@@ -1,6 +1,6 @@
 {
     "name": "ai-network-dag-client",
-    "version": "1.2.3",
+    "version": "1.2.5",
     "description": "SDK for AINetwork MerkleDAG gRPC service",
     "main": "./index.js",
     "types": "ai_network_dag_client.d.ts",

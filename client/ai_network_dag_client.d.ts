@@ -27,4 +27,4 @@ declare class AINetworkDAGClient extends EventEmitter {
   close(): void;
 }
 
-module.exports = AINetworkDAGClient;
+export default AINetworkDAGClient;
